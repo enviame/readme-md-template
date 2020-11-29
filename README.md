@@ -1,21 +1,29 @@
-# Nombre Proyecto: Nombre Función
+# Nombre Proyecto: Nombre Función o Microservicio
 
-### Descripción:
-> Acá va un párrafo que describa lo que hace el desarrollo.
+### Descripción
+_Acá va un párrafo que describa lo que hace el desarrollo._
 
-### Comenzando  🚀
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+### Construcción 🛠️
+* **Tipo:** cloud function|app engine|cloud run
+* **Lenguaje:** python|node.js|php|go
+* **Framework:** larave|flask|express
 
 ### Pre-requisitos 📋
-_Qué se necesita_
+_Explicar qué se necesita tener previo a la descarga y ejecución de la función o microservicio._
 
 ```
 Ejemplo
 ```
 
 ### Instalación 🔧
+_Detallar las instrucciones que te permitirán obtener una copia del proyecto y sus dependencias en tu máquina local para propósitos de desarrollo y pruebas. Debes describir los pasos para realizar la instalación que permita una correcta ejecución de la función o microservicio, como por ejemplo las conexiones a base de datos que necesita, variables de entorno, archivos de configuración, etc._
+
+### Despliegue 📦
+_Explicar los pasos para desplegar el desarrollo, lineas de comando, contenedores o servicios a levantar, puerto en que corre, etc._
+
 ### Pruebas ⚙️
-_Explica como probar el desarrollo_
+_Explicar como probar el desarrollo. Ej:_
+
 **Endpoint:** https://platform.enviame.io/support-test/create-ticket
 
 **Method:** POST
@@ -34,11 +42,15 @@ _Explica como probar el desarrollo_
 }
 ```
 
-### Despliegue 📦
-### Construcción 🛠️
-* **Tipo:** cloud function|app engine|cloud run
-* **Lenguaje:** python|node.js|php|go
-* **Framework:** larave|flask|express
+**Response:**
+```
+{
+    "company_id": 345,
+    "user_id": 1566,
+    "message": "Se agregó el dato correctamente"
+}
+```
+
 
 ### Autores ✒️
 * **Autor:** nombre, email@enviame.iΩ
@@ -49,5 +61,5 @@ _Explica como probar el desarrollo_
 * **Repositorio:** nombre, url
 
 ### Links 📖
-
+_Agregar links adicionales a documentación, otros repos git, etc en caso de ser necesario_
 
